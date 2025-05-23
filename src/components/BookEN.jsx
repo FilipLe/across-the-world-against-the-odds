@@ -46,8 +46,8 @@ function BookEN() {
         <div className="page" style={{ background: 'transparent' }}>
             <div className="page-content cover">
                 <img 
-                    src="src/assets/cover.jpeg"
-                    alt="Logo" 
+                    src=""
+                    alt="Cover Photo" 
                     className="page-logo"
                 />
                 <div className = "title">
