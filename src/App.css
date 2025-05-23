@@ -55,7 +55,7 @@ html {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   padding: 20px;
   text-align: center;
@@ -66,6 +66,7 @@ html {
   color: #fff8f0;
   font-size: small;
   font-weight: bold;
+  justify-content: center;
 }
 
 .cover img {
@@ -83,6 +84,7 @@ html {
   gap: 10px;
   width: 100%;
   padding: 0 5px;
+  flex: 1;
 }
 
 .page-container img {
@@ -100,11 +102,18 @@ html {
   width: 100%;
 }
 
-.page-name {
-  font-size: clamp(1rem, 3vw, 1.8rem);
+.page-header {
+  font-size: clamp(1rem, 2vw, 1.2rem);
   font-weight: 600;
   color: #2c3e50;
   margin-bottom: 5px;
+}
+
+.page-header-placeholder {
+  font-size: clamp(1rem, 3vw, 1.8rem); 
+  margin-bottom: 5px; 
+  height: 1.8rem; 
+  visibility: hidden; 
 }
 
 .page-number {
@@ -113,21 +122,14 @@ html {
   margin-bottom: 10px;
 }
 
-.page-type {
-  display: inline-block;
-  padding: 3px 10px;
-  border-radius: 20px;
-  font-size: clamp(0.6rem, 1.5vw, 0.9rem);
-  font-weight: 500;
-  color: white;
-  margin: 0 3px 5px 3px;
-}
-
 .page-description {
-  font-size: 14px;
+  font-size: 0.8em;
   color: #34495e;
   margin-top: 8px;
   line-height: 1.4;
+
+  text-align: left;
+  white-space: pre-wrap;
 }
 
 .demoPage {
