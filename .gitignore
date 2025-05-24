@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# assets for link photos
+src/assets/imglinks.txt
