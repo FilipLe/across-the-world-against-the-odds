@@ -30,7 +30,7 @@ html {
 }
 
 .indent{
-  margin-top: 1em;
+  margin-top: 0.8em;
   text-indent: 2em;
 }
 
@@ -101,10 +101,6 @@ html {
   max-height: 200px;
   object-fit: contain;
   transition: transform 0.3s ease;
-}
-
-.page-container img:hover {
-  transform: scale(1.05);
 }
 
 .page-info {
