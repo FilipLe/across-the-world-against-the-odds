@@ -738,7 +738,7 @@ Epilogue…………………………………………….…34\
                 />
                 <p className = "photo-caption">Me (very left), my cousins, and my grandmother (middle)</p>
                 <p className = "indent">Today, my grandmother is a proud grandparent of four grandchildren—two girls and two boys. I am the eldest among them, and the writer of this book.</p> 
-                <p className = "indent">I carry this story not just as a grandson, but as a witness to the quiet magnitude of her life. Her journey doesn’t just belong in the past—it breathes through all of us who came after her.</p>
+                <p className = "indent">I carry this story not just as a grandson, but as a witness to the quite magnitude of her life. Her journey doesn’t just belong in the past—it breathes through all of us who came after her.</p>
 
             </>
         )

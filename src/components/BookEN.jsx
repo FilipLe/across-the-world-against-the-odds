@@ -28,7 +28,7 @@ function BookEN() {
                 <div className = "title">
                     Across the World, Against the Odds
                 </div>
-                <div>
+                <div className = "author">
                     - Nguyen Le
                 </div>
                 <br/>
@@ -52,7 +52,6 @@ function BookEN() {
                             ) : (
                                 <div className="page-header-placeholder"></div>
                             )}
-                            {/* <h2 className="page-header">{page.headerContent}</h2> */}
                             <p className="page-description">{page.content}</p>
                         </div>
                     </div>
