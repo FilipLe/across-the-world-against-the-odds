@@ -9,7 +9,8 @@ body,
 html {
   height: 100dvh;
   width: 100dvw;
-  background: #0e1a26;
+  background-image: url('https://i.postimg.cc/VktBdRVY/particles.gif');
+  background-size: cover;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -27,6 +28,36 @@ html {
 
 #root > div {
   margin-bottom: 3%;
+}
+
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-image: linear-gradient(to bottom right, #0100EC, #FB36F4);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  height: 80px;
+}
+
+.navbar span{
+  font-size: 2rem;
+  cursor: pointer;
+  margin: 0 180px;
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    height: 60px; 
+  }
+  
+  .navbar span{
+    margin: 0 90px;
+  }
 }
 
 .indent{
@@ -72,6 +103,17 @@ html {
   font-size: small;
   font-weight: bold;
   justify-content: center;
+  position: relative; 
+}
+
+.cover::before { 
+  content: '';
+  position: absolute;
+  left: 16px; 
+  top: 0;
+  bottom: 0;
+  width: 15px; 
+  background-color: yellow; 
 }
 
 .cover img {
@@ -79,7 +121,12 @@ html {
 }
 
 .title {
-  font-size: large;
+  font-size: 1.15em;
+  font-style: italic;
+}
+
+.author{
+  font-size: .9em;
 }
 
 .sign {
@@ -108,7 +155,7 @@ html {
 }
 
 .page-header {
-  font-size: clamp(0.8rem, 1.6vw, 0.96rem);
+  font-size: clamp(0.65rem, 1.3vw, 0.78rem);
   font-weight: 600;
   color: #2c3e50;
   margin-bottom: 5px;

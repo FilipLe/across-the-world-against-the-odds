@@ -1,15 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { useState, useEffect } from 'react'
 import './App.css'
 import BookEN from './components/BookEN'
+import BookPL from './components/bookPL'
+import Navbar from './components/navbar'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [selectedBook, setSelectedBook] = useState('PL');
 
   return (
     <>
-      <BookEN/>
+      <Navbar setSelectedBook = {setSelectedBook}/>
+      {selectedBook === 'PL' ? <BookPL/> : <BookEN/>}
     </>
   )
 }
