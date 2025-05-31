@@ -745,7 +745,7 @@ Epilog…………………………………………………...…34\
                 <p>Siła do budowania, nauki i ochrony.</p>
                 <p>Siła, aby uwolnić Bawoła.</p>
                 <p>Siła, aby nauczyć dzieciom podnosić rękę.</p>
-                <p>By przepisać swój los — nie tylko raz, ale wiele, wiele razy.</p>
+                <p>By przepisać swój los — nie tylko raz, ale wiele razy.</p>
                 <p className="indent">Rozpoczęła swoją drogę w bunkrze, dokonała zmian w strukturze budowy mostów, stała się nie tylko Obywatelką Polski, ale wytrzymałości, odwagi i siły.</p>
                 <p className="indent">W 2017 roku moja Babcia wzięła udział w spotkaniu z okazji 50-tej rocznicy ukończenia studiów, razem ze swoimi kolegami z rocznika 1967. Niestety tylko połowa z nich pozostała, choć pamięć o ci którzy już odeszli była obecna, a ich nieobecność odczuwalna. Byłem tam razem z nią i poruszyło mnie to w sposób, którego się nie spodziewałem. Zobaczyłem jak głębokie mogą być więzy przyjaźni, nawet po upływie pięćdziesięciu lat. Zacząłem się zastanawiać, czy ja sam kiedyś zdołym</p>
             </>
